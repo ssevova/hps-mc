@@ -320,7 +320,8 @@ class LCIOTool(Component):
 class LCIOConcat(LCIOTool):
     
     def __init__(self, **kwargs):
-        self.name = "concat"
+        #self.name = "concat"
+        self.name = "merge"
         LCIOTool.__init__(self, **kwargs)
         
     def cmd_args(self):
